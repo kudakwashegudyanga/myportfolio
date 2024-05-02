@@ -1,0 +1,44 @@
+.btn-group .one {
+  animation: imgg 5s step-end infinite;
+  animation-delay: 1s;
+}
+.btn-group .two {
+  animation: imgg 5s step-end infinite;
+  animation-delay: 2s;
+}
+
+.home-img {
+  animation: imgg 2s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
+@keyframes imgg {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-22px);
+  }
+}
+.social-icons {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-icons span {
+  display: flex;
+  justify-content: center;
+  padding: 5px 20px;
+  background: rgba(255, 166, 0, 0.014);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.4392156863);
+  border: 1px solid rgba(255, 255, 255, 0.1882352941);
+  border-radius: 100px;
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 10%;
+}
+.social-icons img {
+  width: 4rem;
+}/*# sourceMappingURL=style.css.map */
