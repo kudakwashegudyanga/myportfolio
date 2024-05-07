@@ -224,15 +224,15 @@ span{
 @keyframes words {
     0%,
     20%{
-        content: "Software Developer";
+        content: "SoftwareDeveloper";
     }
     21%,
     40%{
-            content: "frontend developer";
+            content: "frontendDeveloper";
     }
     41%,
     60%{
-            content: "Car Enthusiast";
+            content: "CarEnthusiast";
     }
     /* 61%,
     80%{
@@ -240,7 +240,7 @@ span{
     } */
     61%,
     80%{
-            content: "Woof js developer";
+            content: "WoofDeveloper";
     }
     81%,
     100%{
@@ -436,13 +436,20 @@ span{
     border: 3px solid var(--main-color);
     box-shadow: 0 0 25px var(--main-color);
 }
+.testimonials-boxes img{
+    width: 25rem;
+    border-radius: 2%;
+    border: 3px solid var(--main-color);
+    box-shadow: 0 0 25px var(--main-color);
+}
+
 .wrapper{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 3rem;
 }
 .testimonials-item{
-    /* min-height: 550px; */
+    min-height: 550px;
     max-width: 450px;
     background: rgb(0, 0, 0, 0.7);
     border: 3px solid rgb(238, 238, 238, 0.2);
@@ -509,6 +516,13 @@ span{
 .contact form .btn{
     margin-top: 2rem;
 }
+.profile-pic{
+    border-radius: none;
+}
+.view-more{
+    color: white;
+    margin: 60px;
+}
 /* =======================MEDIA QUERRY====================================== */
 
 @media(max-width:1285px){
@@ -538,12 +552,13 @@ span{
     .timeline-dot{
         left: 0;
     }
-    .testimonials .wrapper{
+     .testimonials .wrapper{
         grid-template-columns: repeat(1,1fr) ;
     }
     .contact form{
         flex-direction: column ;
     }
+  
 
 }
 @media(max-width:895px){
@@ -586,7 +601,7 @@ span{
     margin-top: 0 auto;
 }
 .home-img img{
-    width: 56vw;
+    width: 70vw;
 }
 }
 

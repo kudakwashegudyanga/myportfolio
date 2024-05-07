@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 
 :root {
   --primary-color: #42200b;
@@ -30,7 +30,7 @@
   color: var(--primary-color);
   text-align: center;
   line-height: 3.75rem;
-  text-shadow: 2px 2px var(--secondary-color);
+  /* text-shadow: 2px 2px var(--secondary-color); */
 }
 
 .section__description {
@@ -174,7 +174,7 @@ nav {
   color: var(--primary-color);
   line-height: 3.5rem;
   text-align: center;
-  text-shadow: 2px 2px var(--white);
+  /* text-shadow: 2px 2px var(--white); */
 }
 
 .header__content h1 span {
@@ -261,7 +261,7 @@ nav {
   max-width: 250px;
   margin-inline: auto;
   margin-bottom: 2rem;
-  filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.3));
+  /* filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.3)); */
 }
 
 .order__card h4 {
@@ -282,7 +282,7 @@ nav {
   display: grid;
   gap: 2rem;
   padding: 1rem;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1); */
 }
 
 .event__details {
