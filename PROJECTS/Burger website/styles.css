@@ -7,8 +7,8 @@
   --text-dark: #212529;
   --white: #ffffff;
   --max-width: 1200px;
-  --header-font-1: "Alfa Slab One", serif;
-  --header-font-2: "Bebas Neue", sans-serif;
+  --header-font-1: , serif;
+  --header-font-2: , sans-serif;
 }
 
 * {

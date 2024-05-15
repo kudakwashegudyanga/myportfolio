@@ -13,7 +13,7 @@
     --bg-color: #080808;
     --second-bg-color: #131313;
     --text-color: white;
-    --main-color: navy;
+    --main-color: orange;
 }
 html{
     font-size: 60%;
@@ -218,7 +218,7 @@ span{
 }
 @keyframes cursor{
         to{
-            border-left: 2px solid var(--main-color);
+            border-left: 2px solid yellowgreen;
         }
 }
 @keyframes words {
@@ -359,7 +359,7 @@ span{
     font-weight: 300;
 }
 ::-webkit-scrollbar{
-    width: 80px;
+    width: 8px;
 }
 ::-webkit-scrollbar-thumb{
     background-color: var(--main-color);
