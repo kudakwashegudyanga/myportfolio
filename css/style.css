@@ -23,6 +23,30 @@ body{
     background: var(--bg-color)!important;
     color: var(--text-color);
 }
+ 
+.mobile-nav{
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.hamburger{
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    border: 2px solid orange;
+    
+    }
+    .line{
+        height: 2px;
+        width: 70%;
+        background-color: orange;
+    }
+        
 .header{
 position: fixed;
 top: 0;
@@ -529,6 +553,8 @@ span{
         html{
             font-size: 55%;
         }
+    
+       
         
 }
 @media(max-width:991px){
@@ -558,9 +584,11 @@ span{
     .contact form{
         flex-direction: column ;
     }
-  
+
+
 
 }
+  
 @media(max-width:895px){
     .navbar{
         position: absolute;
@@ -575,6 +603,10 @@ span{
         border-bottom: 2px solid var(--main-color);
         display: none !important;
     }
+    .mobile-nav{
+        display: block !important;
+    }
+
     .navbar .active{
         display: block;
     }
@@ -584,6 +616,7 @@ span{
     margin: 3rem 0;
     color: white;
 }
+
 .home{
     display: flex;
     flex-direction: column !important;
@@ -603,6 +636,11 @@ span{
 .home-img img{
     width: 70vw;
 }
+}
+@media (min-width: 992px) {
+    .mobile-nav{
+        display: none !important;
+    }
 }
 
     
